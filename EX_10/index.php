@@ -2,10 +2,8 @@
 function ordernar($vector, $clave, $orden)
 {
     foreach ($vector as $num => $posicion) {
-        echo $num . "=" . $posicion;
-        echo "</br>";
 
-        echo "</br>";
+
     }
     if ($clave == "valor" && $orden == "asc") {
         ksort($vector);

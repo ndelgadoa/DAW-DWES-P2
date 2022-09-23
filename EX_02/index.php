@@ -13,8 +13,8 @@
     $amigos = array('nil','ramon','alex','juan','sergio');
     $numero =0;
 
-    foreach ($amigos as $nombre =>$numero) {
-        echo '<li>' . $numero  . '</li>';
+    foreach ($amigos as $numero =>$nombre) {
+        echo '<li>' . $nombre  . '</li>';
     }
     echo '</br>';
     echo 'Número totales   ' . count($amigos);

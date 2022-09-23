@@ -14,6 +14,6 @@ function mayusculas($palabra) {
 
 
 }
-echo mayusculas("hoLA");
+echo mayusculas("hola");
 
 ?>
